@@ -1,0 +1,10 @@
+POST http://localhost:8080/transacao/cadastrar
+Content-Type: application/json;
+
+{
+  "descricao": "novo",
+  "tipo_transacao" : "novo",
+  "valor": "30",
+  "data_transacao": "2001-01-01"
+}
+

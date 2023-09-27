@@ -1,0 +1,8 @@
+PUT http://localhost:8080/transacao/atualizar
+Content-Type: application/json;
+
+{
+  "descricao": "novo",
+  "tipo_transacao" : "novo",
+  "valor": "30"
+}
